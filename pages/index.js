@@ -7,7 +7,7 @@ const Home = ({ images }) => {
       <Head>
         <title>Spacestagram</title>
         <meta name="description" content="Nasa" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/asteroid_88863.ico" />
       </Head>
 
       <main>
