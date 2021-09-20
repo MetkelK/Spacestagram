@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
       <nav>
         <TextContainer>
           <Heading element="h1">Spacestagram</Heading>
-          <Subheading>
+          <Subheading element="h2">
             Brought to you by NASA&apos;s Astronomy Picture of the Day API
           </Subheading>
         </TextContainer>
