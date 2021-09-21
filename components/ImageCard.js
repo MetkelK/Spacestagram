@@ -34,7 +34,8 @@ const ImageCard = ({ pod }) => {
   if (pod.media_type === "image") {
     return (
       <Card>
-        <Image src={pod.url} alt={pod.title} width={1300} height={1000} />
+        <Image src={pod.url} alt={pod.title} width={1400} height={1000} />
+
         <Card.Section title={pod.title}>
           <Card.Subsection>
             <TextContainer>
