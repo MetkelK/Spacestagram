@@ -17,7 +17,7 @@ const Home = ({ images }) => {
   );
 };
 
-export const getStaticProps = async (context) => {
+export const getServerSideProps = async (context) => {
   const res = await fetch(
     `https://api.nasa.gov/planetary/apod?start_date=2021-09-01&api_key=${process.env.API_KEY}`
   );
